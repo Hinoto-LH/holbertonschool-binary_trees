@@ -1,0 +1,15 @@
+How it works
+
+The uncle of a node is:
+
+The sibling of its parent
+
+Steps:
+
+If node is NULL → no uncle
+
+If parent is NULL → no uncle
+
+If grandparent is NULL → no uncle
+
+Return the sibling of the parent
